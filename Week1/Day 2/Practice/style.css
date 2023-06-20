@@ -1,0 +1,17 @@
+h1 {
+  background-color: black;
+  color: aliceblue;
+}
+h1 span {
+  color: aqua;
+}
+h3 {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: medium;
+  text-align: center;
+}
+.link {
+  text-align: end;
+  background-color: cadetblue;
+}
