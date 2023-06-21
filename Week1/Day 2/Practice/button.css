@@ -1,0 +1,29 @@
+.search button {
+  background-color: rgba(128, 128, 128, 0.053);
+  padding: 10px;
+  border-radius: 20px;
+  width: 150px;
+  margin: 10px;
+  border: 2px solid rgb(111, 218, 222);
+  color: rgb(111, 218, 222);
+  font-weight: 200;
+}
+
+.plus button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #35d1b2;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+.creat button {
+  background-color: #2b78e4;
+  margin: 10px;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 4px 5px black;
+}
