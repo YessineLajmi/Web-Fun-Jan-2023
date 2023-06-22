@@ -1,0 +1,52 @@
+header {
+  height: 250px;
+  width: 500px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 100px auto;
+}
+.profile {
+  height: 70px;
+  width: 500px;
+  background-color: #24a2b8;
+}
+.firstblock img {
+  height: 80px;
+  position: relative;
+  top: 20px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.info h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px;
+}
+.loc {
+  position: relative;
+  bottom: 30px;
+  display: flex;
+}
+.loc img {
+  height: 15px;
+}
+.loc h5 {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+}
+.para p {
+  position: relative;
+  bottom: 50px;
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.edit {
+  position: relative;
+  bottom: 70px;
+}
+.edit img {
+  height: 20px;
+}
