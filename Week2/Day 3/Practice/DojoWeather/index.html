@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="title">
+          <h1>DojoWeather</h1>
+        </div>
+        <div class="ul">
+          <a href="" onclick="alert('this city is really good')">Burbank</a>
+          <a href="" onclick="alert('this city is really good')">Chicago</a>
+          <a href="" onclick="alert('this city is really good')">Dallas</a>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="loction">
+        <div class="place"><h3>San Jose</h3></div>
+        <div class="temp">
+          <p>show temperature in</p>
+          <select name="temp">
+            <option value="°C">°C</option>
+            <option value="°F">°F</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <main>
+      <div class="card">
+        <h4>Today</h4>
+        <img src="./assets/some_rain.png" alt="" />
+        <p>Some rain</p>
+        <div class="dgre">
+          <h6>24°</h6>
+          <h5>18°</h5>
+        </div>
+      </div>
+      <div class="card">
+        <h4>Tomorrow</h4>
+        <img src="./assets/some_sun.png" alt="" />
+        <p>Some sun</p>
+        <div class="dgre">
+          <h6>80°</h6>
+          <h5>66°</h5>
+        </div>
+      </div>
+      <div class="card">
+        <h4>Friday</h4>
+        <img src="./assets/some_clouds.png" alt="" />
+        <p>Some clouds</p>
+        <div class="dgre">
+          <h6>69°</h6>
+          <h5>61°</h5>
+        </div>
+      </div>
+      <div class="card">
+        <h4>Saturday</h4>
+        <img src="./assets/some_sun.png" alt="" />
+        <p>Some sun</p>
+        <div class="dgre">
+          <h6>26°</h6>
+          <h5>21°</h5>
+        </div>
+      </div>
+    </main>
+    <footer onclick="remove(this)">
+      <div class="cokis">
+        <img src="./assets/cookie.png" alt="" />
+        <div>
+          <h2>Stop! Cookie time</h2>
+          <div class="fot">
+            <p>
+              we use cookies(sadly not the edible ones ) to presonalize <br />
+              countent and ads , to provide social media features and to <br />
+              analyse our traffic
+              <a href="">read more...</a>
+            </p>
+            <button>I accept</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripte.js"></script>
+  </body>
+</html>
