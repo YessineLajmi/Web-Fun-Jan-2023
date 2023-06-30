@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.first li {
+  margin: 20px;
+}
+.nav {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-title {
+  color: rgb(248, 248, 248);
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.nav-links {
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+}
+li a {
+  color: rgb(164, 157, 157);
+  font-family: sans-serif;
+}
+.active {
+  color: rgb(255, 255, 255);
+}
+.btn {
+  background: #24a2b8;
+  color: white;
+  box-shadow: 2px 4px black;
+  width: 100px;
+}
+header {
+  height: 250px;
+  width: 500px;
+  border: 3px solid gray;
+  border-radius: 4px;
+  margin: 100px auto;
+  position: relative;
+  right: 5%;
+}
+.profile {
+  height: 70px;
+  width: 500px;
+  background-color: #24a2b8;
+}
+.firstblock img {
+  height: 80px;
+  position: relative;
+  top: 20px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.info h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px;
+  position: relative;
+  top: 3px;
+}
+.loc {
+  position: relative;
+  bottom: 0px;
+  display: flex;
+}
+.loc img {
+  height: 15px;
+  position: relative;
+  top: -7px;
+}
+.loc h5 {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+}
+.para p {
+  position: relative;
+  bottom: 10px;
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.edit {
+  position: relative;
+  bottom: 26px;
+}
+.edit a {
+  position: relative;
+  top: 4px;
+}
+.edit img {
+  height: 20px;
+}
+.invite {
+  height: 180px;
+  width: 212px;
+  border: 3px solid rgb(203, 203, 203);
+  position: relative;
+  bottom: 349px;
+  left: 69%;
+}
+.box {
+  height: 40px;
+  width: 212px;
+  border-bottom: 1px solid;
+  background-color: #333333;
+}
+.box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+.invite1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.invite1 .pic {
+  height: 50px;
+  border-radius: 50%;
+}
+.invite p {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.invite1 img {
+  height: 35px;
+}
+.conection2 {
+  height: 280px;
+  width: 212px;
+  border: 3px solid rgb(203, 203, 203);
+  position: relative;
+  bottom: 329px;
+  left: 69%;
+}
+.invite2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 10px;
+}
+.invite2 p {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.invite2 img {
+  height: 35px;
+  border-radius: 50%;
+}
+.box2 {
+  height: 20px;
+  border-top: 1px solid rgb(187, 186, 186);
+  text-align: start;
+  position: relative;
+  top: 20px;
+}
+.box2 a {
+  position: relative;
+  top: 4px;
+  margin: 10px;
+}
+
+.cont {
+  height: 300px;
+  width: 500px;
+  border: 3px solid gray;
+  position: relative;
+  bottom: 550px;
+  left: 325px;
+}
+.bar {
+  height: 40px;
+  width: 500px;
+  background-color: #333333;
+  color: white;
+}
+.bar p {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  font-family: sans-serif;
+}
+.pp p {
+  font-family: sans-serif;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 30px;
+}
+.pp h4 {
+  position: relative;
+  top: 30px;
+  left: 190px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.pp h3 {
+  position: relative;
+  top: 50px;
+  left: 90px;
+  font-family: sans-serif;
+  font-weight: 400;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="first">
+        <h1 class="nav-title">Profile</h1>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">My Profile</a></li>
+        <li><a href="#">Find Connections</a></li>
+      </div>
+      <ul class="nav-links">
+        <li><button class="btn">Sign Out</button></li>
+      </ul>
+    </div>
+    <header>
+      <div class="profile">
+        <div class="firstblock">
+          <img src="./icons/user-circle.png" alt="" />
+          <div class="info">
+            <h2> <span id="Name">Yessine Lajmi</span> </h2>
+            <div class="loc">
+              <img src="./icons/map-marker.png" alt="" />
+              <h5>tunisia</h5>
+            </div>
+            <div class="para">
+              <p>Developer/Fullstack/ Webdeve/Mobile dev</p>
+            </div>
+            <div class="edit">
+              <img src="./icons/gear.png" alt="" />
+              <a href="#" onclick="change(Name)" >edit profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="invite">
+        <div class="box">
+           <p>Connection requests</p>
+      </div>
+      <div class="invite1">
+        <img class="pic" src="./images/adrien-s.jpg" alt="">
+        <p>Todd E</p>
+        <img onclick="remove(this)" src="./icons/accept-circle.png" alt="">
+        <img onclick="remove(this)"src="./icons/close-circle.png" alt="">
+    </div>
+    <div class="invite1">
+        <img class="pic" src="./images/alayne-s.jpg" alt="">
+        <p>Phil K</p>
+        <img onclick="remove(this)" src="./icons/accept-circle.png" alt="">
+        <img onclick="remove(this)" src="./icons/close-circle.png" alt="">
+    </div>
+    </section>
+    <main>
+        <div class="conection2">
+            <div class="box">
+                <p>Your Connection </p>
+           </div>
+            
+          <div class="invite2">
+            <img class="pic" src="./images/anne-s.jpg" alt="">
+            <p>Anne J</p>
+          
+        </div>
+        <div class="invite2">
+            <img class="pic" src="./images/alayne-s.jpg" alt="">
+            <p>Alayne</p>
+            
+        </div>
+        <div class="invite2">
+            <img class="pic" src="./images/jane-m.jpg" alt="">
+            <p>Jane M</p>
+            
+        </div>
+        <div class="invite2">
+            <img class="pic" src="./images/arry-s.jpg" alt="">
+            <p>ArryY</p>
+            </div>
+            <div class="box2">
+              <a href="">view more</a>
+         </div>
+        </div>
+    </main>
+    <div class="cont">
+      <div class="box3">
+        <div class="bar">
+          <p>Education</p>
+        </div>
+
+      </div>
+      <div class="pp">
+<p>Coding Dojo - FullStack BootCamp</p>
+
+<h4>Dec 2019 Mars 20</h4>
+<h3>Triple black belt in python,Mearn,C#</h3></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
