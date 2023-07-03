@@ -7,6 +7,7 @@ function like(e) {
 function likeDown(e) {
   e.innerText--;
 }
-function custom() {
+
+function custom(value) {
   alert();
 }
