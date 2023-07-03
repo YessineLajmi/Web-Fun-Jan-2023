@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="warper">
+      <header>
+        <div class="first-hed">
+          <div class="l1">
+            <img src="./Resources /images/cat.png" alt="" />
+            <h2>CodeIt</h2>
+            <div>
+              <input type="search" placeholder="search" />
+              <button onclick="alert('hello welcom to our site')">Go</button>
+            </div>
+          </div>
+          <div class="l2">
+            <button class="butn1">Get App</button>
+            <button class="butn2">Log in</button>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="profile-perant">
+          <div class="profile">
+            <img src="./Resources /images/cat.png" alt="" />
+            <p>c/Dojo</p>
+            <button onclick="hide(this)">Join</button>
+          </div>
+          <div class="menu">
+            <a href="#"> <span>Post</span> </a>
+            <a href="#">Wiki</a>
+            <a href="#">c/Dojo</a>
+            <a href="#">Discord</a>
+          </div>
+        </div>
+      </section>
+      <main>
+        <div class="continer">
+          <div class="big-box">
+            <div class="box1">
+              <div class="inside">
+                <div class="arrow">
+                  <a href="#"
+                    ><img
+                      onclick="like(likeNum1)"
+                      src="./Resources /images/up-arrow.png"
+                      alt=""
+                  /></a>
+                  <p><span id="likeNum1">29</span></p>
+                  <a href="#">
+                    <img
+                      onclick="likeDown(likeNum1)"
+                      src="./Resources /images/down-arrow.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div class="indide-box1">
+                  <p>Best of Project Week 2022!</p>
+                  <img src="./Resources /images/image1.webp" alt="" />
+                </div>
+              </div>
+              <div class="comment">
+                <div class="comnt-share">
+                  <img src="./Resources /images/chat.png" alt="" />
+                  <p>42 comment</p>
+                </div>
+                <div class="share">
+                  <img src="./Resources /images/share.png" alt="" />
+                  <p>share</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--secnd box -->
+          <div class="big-box">
+            <div class="box1">
+              <div class="inside">
+                <div class="arrow">
+                  <a href="#"
+                    ><img src="./Resources /images/up-arrow.png" alt=""
+                  /></a>
+                  <p>17</p>
+                  <a href="#">
+                    <img src="./Resources /images/down-arrow.png" alt=""
+                  /></a>
+                </div>
+                <div class="indide-box1">
+                  <p>I use my cat as a rubber duck,is that weird?</p>
+                  <img src="./Resources /images/image2.webp" alt="" />
+                </div>
+              </div>
+              <div class="comment">
+                <div class="comnt-share">
+                  <img src="./Resources /images/chat.png" alt="" />
+                  <p>16 comment</p>
+                </div>
+                <div class="share">
+                  <img src="./Resources /images/share.png" alt="" />
+                  <p>share</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------felx sec---------->
+        <div class="boxes">
+          <div class="about-box">
+            <div class="about">
+              <h4>About the Dojo</h4>
+            </div>
+            <p>
+              <br />
+              changing lives with code and a dedicated community of debuggers!
+            </p>
+          </div>
+          <div class="about-box">
+            <div class="about">
+              <h4>About the Dojo</h4>
+            </div>
+            <p>
+              <br />
+              changing lives with code and a dedicated community of debuggers!
+            </p>
+          </div>
+          <div class="about-box">
+            <div class="about">
+              <h4>About the Dojo</h4>
+            </div>
+            <p>
+              <br />
+              changing lives with code and a dedicated community of debuggers!
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
